@@ -19,7 +19,7 @@ CORS(app, resources={r"/validate-documents": {"origins": "*"},r"/check-timatic":
 GEMINI_API_KEY = "YOUR_API_KEY_HERE"
 # Updated Flask backend using Google Gemini Flash 2.0 for document field extraction and comparison
 
-client = genai.Client(api_key="AIzaSyARWmWvQPr2SLKDTb-qOavK3VZoFyEWG5Q")
+client = genai.Client(api_key="your api key")
 
 # --- Gemini Prompt Generation ---
 def generate_gemini_prompt(doc_type):
